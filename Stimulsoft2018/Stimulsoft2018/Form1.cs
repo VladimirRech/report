@@ -20,7 +20,7 @@ namespace Stimulsoft2018
         private void button1_Click(object sender, EventArgs e)
         {
             var rpt = new StiReport();
-            rpt.DesignWithWpf();
+            rpt.Design();
         }
     }
 }
