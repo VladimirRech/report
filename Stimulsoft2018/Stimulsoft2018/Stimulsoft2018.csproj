@@ -29,7 +29,7 @@
     <BootstrapperEnabled>true</BootstrapperEnabled>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
-    <PlatformTarget>x86</PlatformTarget>
+    <PlatformTarget>AnyCPU</PlatformTarget>
     <DebugSymbols>true</DebugSymbols>
     <DebugType>full</DebugType>
     <Optimize>false</Optimize>
@@ -75,20 +75,20 @@
     <Reference Include="Stimulsoft.Controls.Win, Version=2018.3.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <HintPath>..\packages\Stimulsoft.Reports.Net.2018.3.5\lib\net40\Stimulsoft.Controls.Win.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard, Version=2018.3.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2018.3.5\lib\net40\Stimulsoft.Dashboard.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.1.1\lib\net40\Stimulsoft.Dashboard.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Design, Version=2018.3.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2018.3.5\lib\net40\Stimulsoft.Dashboard.Design.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Design, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.1.1\lib\net40\Stimulsoft.Dashboard.Design.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Drawing, Version=2018.3.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2018.3.5\lib\net40\Stimulsoft.Dashboard.Drawing.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Drawing, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.1.1\lib\net40\Stimulsoft.Dashboard.Drawing.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Export, Version=2018.3.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2018.3.5\lib\net40\Stimulsoft.Dashboard.Export.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Export, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.1.1\lib\net40\Stimulsoft.Dashboard.Export.dll</HintPath>
     </Reference>
-    <Reference Include="Stimulsoft.Dashboard.Viewer, Version=2018.3.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
-      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2018.3.5\lib\net40\Stimulsoft.Dashboard.Viewer.dll</HintPath>
+    <Reference Include="Stimulsoft.Dashboard.Viewer, Version=2019.1.1.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
+      <HintPath>..\packages\Stimulsoft.Dashboards.Win.2019.1.1\lib\net40\Stimulsoft.Dashboard.Viewer.dll</HintPath>
     </Reference>
     <Reference Include="Stimulsoft.Data, Version=2018.3.5.0, Culture=neutral, PublicKeyToken=ebe6666cba19647a, processorArchitecture=MSIL">
       <HintPath>..\packages\Stimulsoft.Reports.Engine.2018.3.5\lib\net40\Stimulsoft.Data.dll</HintPath>
@@ -197,6 +197,7 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="app.config" />
     <None Include="packages.config" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
